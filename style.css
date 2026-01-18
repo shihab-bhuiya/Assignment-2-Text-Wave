@@ -106,6 +106,44 @@ nav .menu{
 
 }
 
+/* ABOUT SECTION */
+
+.about{
+    margin: 0;
+    padding: 5px;
+    background-color: #1A0B2E;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.about-title{
+    font-size: 48px;
+    font-weight: bold;
+}
+.about-desc{
+    line-height: 20px;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.card-info{
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+    gap: 80px;
+    margin: 40px 0;
+}
+/* ABOUT SECTIO CARD */
+
+.card-title{
+    font-size: 48px;
+    color: #00FF88;
+}
+
+.card-desc{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 16px;
+}
 
 
 /* Small Device Responsive */
