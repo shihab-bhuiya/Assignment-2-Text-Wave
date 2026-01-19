@@ -1,5 +1,8 @@
 /** @format */
 
+*{
+  margin-top: 0;
+}
 .work-sans-font {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
@@ -84,8 +87,11 @@ nav .menu {
 /* BANNER CONTAINER */
 .banner-container {
   /* background-image: url(./assets/hero-bg.png); */
-  background-color: #1a0b2e;
+  /* background-color: #1a0b2e; */
+  background-image: url(./assets/hero-bg.png);
   margin-top: 1px;
+  padding: 100px;
+  padding-left: 150px;
   max-width: 1600px;
   text-align: center;
 }
@@ -104,7 +110,7 @@ nav .menu {
 
 .about {
   margin: 0;
-  padding: 5px;
+  padding: 55px;
   background-color: #1a0b2e;
   color: white;
   text-align: center;
@@ -259,6 +265,37 @@ nav .menu {
   font-weight: bold;
 }
 
+footer{
+text-align: center;
+align-items: center;
+  background-image: url(./assets/footer-bg.png);
+  height: 350px;
+  color: white;
+
+}
+
+
+.logo1{
+  color: white;
+  
+}
+
+.social-media2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-content{
+  align-items: center;
+  padding: 40px;
+}
+.logo h1{
+  font-size: 64px;
+  font-weight: bold;
+}
 
 /* Small Device Responsive */
 
