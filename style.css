@@ -143,31 +143,59 @@ nav .menu {
 
 .choose {
   background-color: #230e3d;
-  padding: 15px;
+  padding: 200px;
   margin: 0 auto;
+  color: #FFFFFF;
+}
+.about-title{
+  text-align: center;
+
 }
 .choose-box {
   display: grid;
   /* background-color: #4b2f6d80; */
   grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+  color: #FFFFFF;
 }
+
+.radius{
+  border-radius: 40px;
+}
+
 .box1 {
   border: 1px solid #351165;
   grid-row: span 2;
   gap: 5px;
+  padding: 40px;
 }
 
 .box2,
 .box3 {
   border: 1px solid #351165;
+  padding: 40px;
 
   grid-column: span 2;
 }
 .box4 {
   border: 1px solid #351165;
-
+  padding: 40px;
   grid-column: span 2;
+}
+.box5{
+   border: 1px solid #351165;
+  padding: 40px;
+}
+
+.choose-box h1{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.choose-box p{
+  line-height: 24px;
+  font-size: 16px;
 }
 
 /* Small Device Responsive */
