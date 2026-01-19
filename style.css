@@ -255,7 +255,9 @@ header {
 .feature{
   background-color: #1A0B2E;
   color: #FFFFFF;
-  padding: 200px;
+  padding: 200px 200px 200px 0px;
+  max-width: 100%;
+  
 }
 
 .feature-card{
@@ -383,9 +385,10 @@ align-items: center;
   color: #FFFFFF;
 }
 
-.feature{
-  margin: 0 auto;
-}
+  .choose, .feature{
+    padding: 0px;
+  }
+
 .feature-episode{
   align-items: center;
   padding: 50px;
@@ -425,3 +428,27 @@ align-items: center;
 
 }
 
+/* Resonponsive For Large Device */
+
+@media (min-width: 992px) {
+  .menu,
+  .btn {
+    display: flex;
+  }
+
+  .hamburger {
+    display: none;
+  }
+  .choose , .feature{
+    max-width: 100%;
+    padding: 100px;
+  }
+
+  .feature-card{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 30px;
+  
+
+}
+}
