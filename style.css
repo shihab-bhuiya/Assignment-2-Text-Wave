@@ -55,6 +55,17 @@ header {
   align-items: center;
   border: none;
 }
+
+.btn {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(255, 0, 150, 0.5);
+}
+
 .btn1 {
   border: 2px solid #00ff88;
   color: #00ff88;
@@ -356,5 +367,61 @@ align-items: center;
   .logo h1 {
     font-size: 28px;
   }
+  .card-info {
+  display: grid;
+  grid-template-columns: repeat(2, 4fr);
+  gap: 80px;
+  margin: 40px 0;
+}
+
+.choose-box {
+  display: grid;
+  /* background-color: #4b2f6d80; */
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 30px;
+  color: #FFFFFF;
+}
+
+.feature{
+  margin: 0 auto;
+}
+.feature-episode{
+  align-items: center;
+  padding: 50px;
+}
+.feature-card{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(1,1fr);
+  gap: 30px;
+  margin: 0 au;
+}
+.feature h1{
+  font-size: 32px;
+}
+
+.host-body ,.host-body h1{
+  display: inline;
+  background-color: #351165ad;
+  padding: 20px;
+  border-radius: 40px;
+  max-width: 70%;
+
+}
+
+.host-content h2{
+  font-size: 24px;
+}
+
+.social-media2{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2,1fr);
+  text-align: center;
+  align-items: center;
+  gap: 12px;
+}
+
 }
 
