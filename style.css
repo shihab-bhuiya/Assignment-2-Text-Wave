@@ -86,25 +86,67 @@ nav .menu {
 
 /* BANNER CONTAINER */
 .banner-container {
-  /* background-image: url(./assets/hero-bg.png); */
-  /* background-color: #1a0b2e; */
   background-image: url(./assets/hero-bg.png);
-  margin-top: 1px;
-  padding: 100px;
-  padding-left: 150px;
-  max-width: 1600px;
-  text-align: center;
+  padding: 120px 20px;
+  display: flex;
+  justify-content: center;
 }
 
+.hero-wrapper {
+  text-align: center;
+  max-width: 800px;
+}
+
+/* Gradient Circle */
+.hero-circle {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #f7e93f, #fb09b4, #9100f8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Mic Icon */
+.mic-icon {
+  width: 110px;
+}
+
+/* NEW Badge */
+.badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #00ff88;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+
+/* Title */
 .banner-title h1 {
   font-size: 60px;
-  font-weight: bolder;
-  color: #ffffff;
+  font-weight: 800;
+  color: white;
 }
+
 .banner-title p {
-  color: #ffffff;
   font-size: 16px;
+  color: #ddd;
+  margin: 20px 0;
 }
+
+.banner-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
 
 /* ABOUT SECTION */
 
