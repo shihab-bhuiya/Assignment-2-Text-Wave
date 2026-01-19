@@ -198,6 +198,68 @@ nav .menu {
   font-size: 16px;
 }
 
+/* FEATURE SECTION */
+
+.feature{
+  background-color: #1A0B2E;
+  color: #FFFFFF;
+  padding: 200px;
+}
+
+.feature-card{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+
+}
+
+.card{
+  background-color: #39205a38;
+  border-radius: 25px;
+  
+}
+
+.card h1{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card p{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card h5{
+  color: #00ff88;
+}
+
+/* Host Section */
+
+.host-body{
+  display: flex;
+  background-color: #351165ad;
+  padding: 20px;
+  border-radius: 40px;
+
+}
+.host-content{
+  margin-left: 12px;
+}
+.social-media{
+  display: grid;
+  grid-template-columns: repeat(4,25px);
+  gap: 8px;
+}
+.host-content p{
+  font-size: 16px;
+  line-height: 24px;
+}
+.host-content h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+
 /* Small Device Responsive */
 
 @media (max-width: 576) {
