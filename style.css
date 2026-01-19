@@ -443,7 +443,9 @@ align-items: center;
     max-width: 100%;
     padding: 200px;
   }
-
+.frame{
+  width: 100%;
+}
   .feature-card{
   display: grid;
   grid-template-columns: repeat(2,1fr);
