@@ -266,10 +266,13 @@ header {
   gap: 30px;
 
 }
-
+.radius-frame{
+  border-radius: 20px;
+}
 .card{
   background-color: #39205a38;
-  border-radius: 25px;
+
+  border-radius: 20px;
   
 }
 
